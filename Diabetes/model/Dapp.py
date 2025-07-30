@@ -31,7 +31,7 @@ if st.sidebar.button('Predict'):
     # Predict the diabetes risk
     prediction = model.predict(input_data)[0]
     
-    # Display the result
+    # Display in the result
     if prediction == 1:
         st.success('Predicted: High Risk of Diabetes')
     else:

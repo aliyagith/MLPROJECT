@@ -49,7 +49,7 @@ with st.sidebar:
     bp = st.slider('💓 Blood Pressure (mmHg)', 80, 200, 120)
     bmi = st.slider('⚖️ BMI', 15.0, 50.0, 25.0, 0.1)
     age = st.slider('🎂 Age (years)', 18, 100, 45)
-    pregnancies = st.slider('🤰 Pregnancies', 0, 20, 2)
+    pregnancies = st.slider('Pregnancies', 0, 20, 2)
     skin_thickness = st.slider('🩸 Skin Thickness (mm)', 0, 100, 2)
     insulin = st.slider('💉 Insulin Level (µU/mL)', 0, 300, 100)
     diabetes_pedigree = st.slider('📊 Diabetes Pedigree Function', 0.0, 2.5, 0.5, 0.01)
